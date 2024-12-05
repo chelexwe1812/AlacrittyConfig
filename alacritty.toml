@@ -82,44 +82,44 @@
 # text = "#ffffff"        # Color de texto de selección
 
 [[colors.indexed_colors]]
-color = "#ff8a7a"  # Rojo
+color = "#F92672"  # Rojo (Diff Deleted)
 index = 16
 
 [[colors.indexed_colors]]
-color = "#ffbd69"  # Naranja
+color = "#A6E22E"  # Verde (Diff Inserted)
 index = 17
 
 [colors.bright]
-black = "#43454b"   # Negro Brillante
-blue = "#4ec4e6"    # Azul Brillante
-cyan = "#78c2b3"    # Cian Brillante
-green = "#83c9bc"   # Verde Brillante
-magenta = "#ff85b8" # Magenta Brillante
-red = "#ff8170"     # Rojo Brillante
-white = "#dfdfe0"   # Blanco Brillante
-yellow = "#d9c668"  # Amarillo Brillante
+black = "#43454b"   # Negros oscuros de fondo adaptados
+blue = "#6CF4FD"    # Azul brillante (Clases y soporte)
+cyan = "#4CBCC8"    # Cian brillante (Funciones)
+green = "#6FDCF5"   # Verde brillante (Constantes)
+magenta = "#FB7A80" # Magenta brillante (Cadenas de texto)
+red = "#F2777A"     # Rojo brillante (Errores y palabras clave)
+white = "#EDEEF3"   # Blanco brillante (Operadores)
+yellow = "#EBE185"  # Amarillo brillante (Números)
 
 [colors.cursor]
-cursor = "#4f5052"  # Color del cursor
-text = "#ecedf0"     # Color del texto del cursor
+cursor = "#CCCCCC"  # Color del cursor (Caret)
+text = "#393939"    # Texto de línea resaltada (Line Highlight)
 
 [colors.normal]
-black = "#282c34"   # Negro ANSI
-blue = "#4eb0cc"    # Azul ANSI
-cyan = "#b281eb"    # Cian ANSI
-green = "#78c2b3"   # Verde ANSI
-magenta = "#ff7ab2" # Magenta ANSI
-red = "#ff8a7a"     # Rojo ANSI
-white = "#ffffff"    # Blanco ANSI
-yellow = "#d9c97c"  # Amarillo ANSI
+black = "#1E1E1E"   # Fondo normal (Background)
+blue = "#6CF4FD"    # Azul ANSI (Clases)
+cyan = "#4CBCC8"    # Cian ANSI (Funciones)
+green = "#6FDCF5"   # Verde ANSI (Constantes)
+magenta = "#FB7A80" # Magenta ANSI (Cadenas)
+red = "#F2777A"     # Rojo ANSI (Errores)
+white = "#CCCCCC"   # Blanco ANSI (Foreground)
+yellow = "#EBE185"  # Amarillo ANSI (Números)
 
 [colors.primary]
-background = "#1e1e1e"  # Color de fondo
-foreground = "#dfdfe0"  # Color de primer plano
+background = "#1E1E1E"  # Color de fondo
+foreground = "#CCCCCC"  # Color de primer plano
 
 [colors.selection]
-background = "#3e4451"  # Color de fondo de selección
-text = "#ffffff"        # Color de texto de selección
+background = "#515151"  # Fondo de selección
+text = "#CCCCCC"        # Texto de selección
 
 
 [cursor]
