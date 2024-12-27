@@ -135,5 +135,6 @@ family = "IosevkaTerm NF"
 [window]
 option_as_alt = "Both"
 opacity = 1
+dimensions = { columns = 165, lines = 45 }
 
 [env]
